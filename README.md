@@ -8,6 +8,11 @@ In the case of the stellar spectra dataset, a reduced version of the dataset use
 
 The method consists of adding a Spectral Layer as the first operation of the model. The Spectral Layer is essentially a Dense Layer with weights parametrized as $w_{ij} = \lambda_i \phi_{ij}$. The parameters $\lambda_i$, referred to as eigenvalues, are node-specific parameters. After training, the values of these parameters serve as good proxies for the relevance of the input components connected to the input layer nodes.
 
-![image](https://github.com/user-attachments/assets/9cea262b-22c4-4199-83c4-b0edfa514911)
+<figure>
+    <img src=![image](https://github.com/user-attachments/assets/85e942cb-75e1-4726-8e13-066a87ce4208)
+         >
+    <figcaption> Scheme of input feature relevance estimation via Spectral
+Neural Networks method </figcaption>
+</figure>
 
 $R(x_i) \propto \lambda_i$, were $R(x_i)$ is the relevance of the component $x_i$.

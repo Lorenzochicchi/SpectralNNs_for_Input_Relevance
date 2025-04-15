@@ -12,7 +12,7 @@ $R(x_i) \propto \lambda_i$, were $R(x_i)$ is the relevance of the component $x_i
 
 <figure>
     <img src="scheme.jpg"
-        width="200">
+        width="600">
     <figcaption> Scheme of input feature relevance estimation via Spectral
 Neural Networks method. </figcaption>
 </figure>

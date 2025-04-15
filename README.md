@@ -10,8 +10,8 @@ The method consists of adding a Spectral Layer as the first operation of the mod
 
 <figure>
     <img src="scheme.jpg">
-    <figcaption> Scheme of input feature relevance estimation via Spectral
-Neural Networks method </figcaption>
+    <figcaption> \footnotesize Scheme of input feature relevance estimation via Spectral
+Neural Networks method. </figcaption>
 </figure>
 
 $R(x_i) \propto \lambda_i$, were $R(x_i)$ is the relevance of the component $x_i$.

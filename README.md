@@ -6,7 +6,8 @@ There are four distinct notebooks, one for each dataset considered in this work.
 
 In the case of the stellar spectra dataset, a reduced version of the dataset used in the study is provided to test the method.
 
-The method consists of adding a Spectral Layer as first operation of the model. The Spectral layer is essentialy a Dense Layer with weigths that are parametrized as $w_{ij} = \lambda_i \phi_{ij}$. 
+The method consists of adding a Spectral Layer as the first operation of the model. The Spectral Layer is essentially a Dense Layer with weights parametrized as $w_{ij} = \lambda_i \phi_{ij}$. The parameters $\lambda_i$, referred to as eigenvalues, are node-specific parameters. After training, the values of these parameters serve as good proxies for the relevance of the input components connected to the input layer nodes.
 
-![image](https://github.com/user-attachments/assets/f7e1993d-aa64-4f03-9bd8-cee1710cf801)
+![image](https://github.com/user-attachments/assets/9cea262b-22c4-4199-83c4-b0edfa514911)
 
+$R(x_i) \propto \lambda_i$, were $R(x_i)$ is the relevance of the component $x_i$.
